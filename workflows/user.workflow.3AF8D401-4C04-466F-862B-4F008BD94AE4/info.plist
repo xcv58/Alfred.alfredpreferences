@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2C498371-B18F-497C-A51A-51132FBC58BB</string>
+				<string>CD3E0258-3E0D-4691-9F5A-8F711A38FABC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -242,6 +242,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>osascript /usr/local/bin/toggle.scpt /Applications/Airmail\ 2.app /Applications/Mail.app</string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>393DB19F-6B6F-4B32-B85D-0D101B133368</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -265,23 +282,6 @@
 			<string>47A2375E-8040-4CAF-89FD-B27755416AF2</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Airmail\ 2.app /Applications/Mail.app</string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>393DB19F-6B6F-4B32-B85D-0D101B133368</string>
-			<key>version</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -492,7 +492,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/IntelliJ\ IDEA.app /Applications/Android\ Studio.app</string>
+				<string>osascript /usr/local/bin/toggle.scpt /Applications/IntelliJ\ IDEA\ 14.app/ /Applications/Android\ Studio.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -550,17 +550,17 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Wunderlist.app</string>
-				<key>type</key>
-				<integer>5</integer>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Wunderlist.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>2C498371-B18F-497C-A51A-51132FBC58BB</string>
+			<string>CD3E0258-3E0D-4691-9F5A-8F711A38FABC</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -944,11 +944,6 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>1680</real>
 		</dict>
-		<key>2C498371-B18F-497C-A51A-51132FBC58BB</key>
-		<dict>
-			<key>ypos</key>
-			<real>890</real>
-		</dict>
 		<key>2E75327D-8FC8-41CE-904B-861FAEA91F20</key>
 		<dict>
 			<key>ypos</key>
@@ -1058,6 +1053,11 @@ end alfred_script</string>
 		<dict>
 			<key>ypos</key>
 			<real>560</real>
+		</dict>
+		<key>CD3E0258-3E0D-4691-9F5A-8F711A38FABC</key>
+		<dict>
+			<key>ypos</key>
+			<real>890</real>
 		</dict>
 		<key>D2A998FA-BAC5-4EDC-9207-D5D80DE15026</key>
 		<dict>
