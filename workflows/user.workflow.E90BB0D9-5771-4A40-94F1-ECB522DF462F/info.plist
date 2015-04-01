@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7FA9EE2C-6C63-4518-BB1C-63C7F0603659</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>xcv58</string>
+	<key>description</key>
+	<string>Open Pocket &amp; Full Screen</string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Open Pocket &amp; Full Screen</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>pocket</string>
+				<key>subtext</key>
+				<string>Open pocket and Fullscreen</string>
+				<key>text</key>
+				<string>Pocket</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C0599899-ADDA-4673-96A5-3A353EF86396</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Chrome Apps.localized/Default mjcnijlhddpbdemagnpefmlkjdagkogk.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>tell application "iTunes"
+        set value of attribute "AXFullScreen" of window 1 of process "iTunes" to true
+end tell</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>A97AB3DD-01B8-4B97-9478-09D52E30F001</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>tell application "iTunes"
+        set value of attribute "AXFullScreen" of window 1 of process "iTunes" to true
+end tell</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>7FA9EE2C-6C63-4518-BB1C-63C7F0603659</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, 0, myWidth, myHeight}end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>E4AB7C30-7B07-4A84-BF5D-2A4E6CC25BBC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7BFBD17B-A178-4978-ADF4-CE88E38A10A0</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>7BFBD17B-A178-4978-ADF4-CE88E38A10A0</key>
+		<dict>
+			<key>ypos</key>
+			<real>490</real>
+		</dict>
+		<key>7FA9EE2C-6C63-4518-BB1C-63C7F0603659</key>
+		<dict>
+			<key>ypos</key>
+			<real>310</real>
+		</dict>
+		<key>A97AB3DD-01B8-4B97-9478-09D52E30F001</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>E4AB7C30-7B07-4A84-BF5D-2A4E6CC25BBC</key>
+		<dict>
+			<key>ypos</key>
+			<real>370</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

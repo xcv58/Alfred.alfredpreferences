@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>1.0</string>
+	<key>connections</key>
+	<dict>
+		<key>03B78166-A2F4-4E1B-8695-9A679BA87B1F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8324AF30-063E-4A03-BF93-9C18650DBB04</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>0ACD88B9-8D8E-4D8E-B65D-B006089F11F7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8454F84D-2B06-43DA-A73B-75ACE3265D3E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>1812B45C-ECA5-4DCB-B59F-A7C28D2C1538</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>192A55BF-0727-493B-805D-F8428467FBF7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>21B9BED4-6320-4888-A45B-39759EE07F4E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E11F58BD-7966-4401-B883-32478C8864D3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>32A8C408-F55A-4648-B680-2664749662BD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F94E4652-79C1-47F7-B49E-1BB9D8F0B3C0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>482FC06E-7706-43C0-8355-D5FAAB6AE189</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>449E4652-5581-4BFA-9FBC-516E6CBD0CC9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>7E3D331D-D4C4-4CF7-8AD0-0AEB398C72BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>36CD922D-66E3-4DE1-BAB1-BB6879D00729</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>8888F0D4-B5B6-4A7A-AFA0-B9C710DFA6D0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>64D1098D-0587-494A-A960-C24B22954796</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>A207C252-C644-4848-9F34-A837310FC83C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>32473B0A-CAE6-486C-8B64-A389747E7D5A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>D7A57E14-1068-4212-9867-CAE51A9F6C8E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E6CE872F-0B99-4197-B713-F36102C1FE60</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Derek Minner</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<true/>
+	<key>name</key>
+	<string>Window Management</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>top</string>
+				<key>text</key>
+				<string>Resize Window - Top Half</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>21B9BED4-6320-4888-A45B-39759EE07F4E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, 0, myWidth, (myHeight / 2)}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>E11F58BD-7966-4401-B883-32478C8864D3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bottom</string>
+				<key>text</key>
+				<string>Resize Window - Bottom Half</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>1812B45C-ECA5-4DCB-B59F-A7C28D2C1538</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 900set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, (myHeight / 2), myWidth, myHeight}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>192A55BF-0727-493B-805D-F8428467FBF7</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, 0, (myWidth / 2), myHeight}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>32473B0A-CAE6-486C-8B64-A389747E7D5A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>left</string>
+				<key>text</key>
+				<string>Resize Window: Left Half</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A207C252-C644-4848-9F34-A837310FC83C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {(myWidth / 2), 0, myWidth, myHeight}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>36CD922D-66E3-4DE1-BAB1-BB6879D00729</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>r</string>
+				<key>text</key>
+				<string>Resize Window - Right Half</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7E3D331D-D4C4-4CF7-8AD0-0AEB398C72BE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {100, 100, 1340, 800}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>F94E4652-79C1-47F7-B49E-1BB9D8F0B3C0</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>c</string>
+				<key>text</key>
+				<string>Resize Window - Center</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>32A8C408-F55A-4648-B680-2664749662BD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>f</string>
+				<key>text</key>
+				<string>Resize Window - Full</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D7A57E14-1068-4212-9867-CAE51A9F6C8E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, 0, myWidth, myHeight}end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>E6CE872F-0B99-4197-B713-F36102C1FE60</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, 0, (myWidth / 2), (myHeight / 2)}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>449E4652-5581-4BFA-9FBC-516E6CBD0CC9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tl</string>
+				<key>text</key>
+				<string>Resize Window - Top Left</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>482FC06E-7706-43C0-8355-D5FAAB6AE189</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tr</string>
+				<key>text</key>
+				<string>Resize Window - Top Right</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0ACD88B9-8D8E-4D8E-B65D-B006089F11F7</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 880set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {(myWidth / 2), 0, myWidth, (myHeight / 2)}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>8454F84D-2B06-43DA-A73B-75ACE3265D3E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 900set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {0, (myHeight / 2), (myWidth / 2), myHeight}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>8324AF30-063E-4A03-BF93-9C18650DBB04</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bl</string>
+				<key>text</key>
+				<string>Resize Window - Bottom Left</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>03B78166-A2F4-4E1B-8695-9A679BA87B1F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>br</string>
+				<key>text</key>
+				<string>Resize Window - Bottom Right</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>8888F0D4-B5B6-4A7A-AFA0-B9C710DFA6D0</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+
+set myWidth to 1440set myHeight to 900set front_app to (path to frontmost application as Unicode text)tell application front_app	activate	set bounds of window 1 to {(myWidth / 2), (myHeight / 2), myWidth, myHeight}end tellend alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>64D1098D-0587-494A-A960-C24B22954796</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>resize</string>
+				<key>subtext</key>
+				<string>Reopen Alfred Search and type: t, b, l, r, tl, tr, bl, br, f, and c</string>
+				<key>text</key>
+				<string>Resize Window:  Available Commands</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>57779E5A-AE87-4357-ACED-0036E6684081</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>03B78166-A2F4-4E1B-8695-9A679BA87B1F</key>
+		<dict>
+			<key>ypos</key>
+			<real>960</real>
+		</dict>
+		<key>0ACD88B9-8D8E-4D8E-B65D-B006089F11F7</key>
+		<dict>
+			<key>ypos</key>
+			<real>840</real>
+		</dict>
+		<key>1812B45C-ECA5-4DCB-B59F-A7C28D2C1538</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>192A55BF-0727-493B-805D-F8428467FBF7</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+		<key>21B9BED4-6320-4888-A45B-39759EE07F4E</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>32473B0A-CAE6-486C-8B64-A389747E7D5A</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>32A8C408-F55A-4648-B680-2664749662BD</key>
+		<dict>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>36CD922D-66E3-4DE1-BAB1-BB6879D00729</key>
+		<dict>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>449E4652-5581-4BFA-9FBC-516E6CBD0CC9</key>
+		<dict>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>482FC06E-7706-43C0-8355-D5FAAB6AE189</key>
+		<dict>
+			<key>ypos</key>
+			<real>720</real>
+		</dict>
+		<key>57779E5A-AE87-4357-ACED-0036E6684081</key>
+		<dict>
+			<key>ypos</key>
+			<real>1200</real>
+		</dict>
+		<key>64D1098D-0587-494A-A960-C24B22954796</key>
+		<dict>
+			<key>ypos</key>
+			<real>1080</real>
+		</dict>
+		<key>7E3D331D-D4C4-4CF7-8AD0-0AEB398C72BE</key>
+		<dict>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>8324AF30-063E-4A03-BF93-9C18650DBB04</key>
+		<dict>
+			<key>ypos</key>
+			<real>960</real>
+		</dict>
+		<key>8454F84D-2B06-43DA-A73B-75ACE3265D3E</key>
+		<dict>
+			<key>ypos</key>
+			<real>840</real>
+		</dict>
+		<key>8888F0D4-B5B6-4A7A-AFA0-B9C710DFA6D0</key>
+		<dict>
+			<key>ypos</key>
+			<real>1080</real>
+		</dict>
+		<key>A207C252-C644-4848-9F34-A837310FC83C</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>D7A57E14-1068-4212-9867-CAE51A9F6C8E</key>
+		<dict>
+			<key>ypos</key>
+			<real>600</real>
+		</dict>
+		<key>E11F58BD-7966-4401-B883-32478C8864D3</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>E6CE872F-0B99-4197-B713-F36102C1FE60</key>
+		<dict>
+			<key>ypos</key>
+			<real>600</real>
+		</dict>
+		<key>F94E4652-79C1-47F7-B49E-1BB9D8F0B3C0</key>
+		<dict>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://derekminner.com</string>
+</dict>
+</plist>

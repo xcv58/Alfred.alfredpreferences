@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>11EEBC31-462C-4C7F-8A61-B2221528088B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>xcv58</string>
+	<key>description</key>
+	<string>Use hotkey to populate Alfred with selected text</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Search or dict selected text</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>searcher</key>
+				<integer>1635215215</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>1</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>S</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>11EEBC31-462C-4C7F-8A61-B2221528088B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  -- your script here
+  set query to q
+  set address to "https://www.google.com/search?&amp;q="
+--  if startswith(query, ade)
+  if {query starts with "http" or query contains "www." or query contains ".com" or query contains ".edu" or query contains ".org" or query contains ".gov" or query contains "goo.gl" or query contains "bit.ly"} then
+--    if {query ends with "/"} then
+--      display dialog "FIND"
+--    end if
+    set address to query
+  else
+    set address to address &amp; query
+  end if
+--    display dialog address
+  tell application "Chrome"
+    activate
+    open location address
+  end tell
+--     display dialog q
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>1</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>S</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>C5520834-787D-4A75-9F0B-EC5ECA45DA34</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>osascript &lt;&lt;EOF
+tell application "Safari"
+   activate
+   open location "123.com"
+end tell
+display dialog q
+EOF
+</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>283FDC74-E317-4D38-B20E-F69EE7926AF8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  -- your script here
+  set query to q
+  set address to "http://dict.cn/"
+  set address to address &amp; query
+  tell application "Safari"
+    activate
+    open location address
+  end tell
+--     display dialog q
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>A</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.mail</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>11EEBC31-462C-4C7F-8A61-B2221528088B</key>
+		<dict>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
+		<key>283FDC74-E317-4D38-B20E-F69EE7926AF8</key>
+		<dict>
+			<key>ypos</key>
+			<real>330</real>
+		</dict>
+		<key>6F6F472A-AFA0-4F55-9925-C11FD2514D47</key>
+		<dict>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</key>
+		<dict>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
+		<dict>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
+		<dict>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
