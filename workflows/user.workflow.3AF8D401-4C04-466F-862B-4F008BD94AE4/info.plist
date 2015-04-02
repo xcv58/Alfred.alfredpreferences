@@ -228,7 +228,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Emacs.app /Applications/MacVim.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Emacs.app /Applications/MacVim.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -245,7 +245,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Airmail\ 2.app /Applications/Mail.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Airmail\ 2.app /Applications/Mail.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -289,7 +289,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Google\ Chrome.app /Applications/Safari.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Google\ Chrome.app /Applications/Safari.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -333,7 +333,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Skim.app /Applications/Preview.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Skim.app /Applications/Preview.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -492,7 +492,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/IntelliJ\ IDEA\ 14.app/ /Applications/Android\ Studio.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/IntelliJ\ IDEA\ 14.app/ /Applications/Android\ Studio.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -624,7 +624,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.scpt /Applications/Reeder.app /Applications/Newsflow.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Reeder.app /Applications/Newsflow.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
