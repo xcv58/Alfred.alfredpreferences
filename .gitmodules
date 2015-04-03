@@ -1,0 +1,3 @@
+[submodule "workflows/Fantastical"]
+	path = workflows/Fantastical
+	url = git@github.com:robb/Fantastical-Alfred-Workflow.git
