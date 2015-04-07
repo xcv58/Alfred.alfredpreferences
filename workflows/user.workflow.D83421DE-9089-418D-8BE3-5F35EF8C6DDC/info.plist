@@ -47,7 +47,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>python ~/Dropbox/Software/MacHome/Shell_script/jz.py {query}</string>
+				<string>python ~/Dropbox/MacHome/Shell_script/jz.py {query}</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
