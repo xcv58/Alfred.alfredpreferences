@@ -118,6 +118,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>91DFA40F-9497-4E32-8C25-FA303D9AC5E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>A23B6816-4716-4703-8385-47E5AAEDECE7</key>
 		<array>
 			<dict>
@@ -706,6 +717,50 @@
 				<key>argument</key>
 				<integer>0</integer>
 				<key>hotkey</key>
+				<integer>43</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>&lt;</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>https://mail.google.com/mail/u/0/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>91DFA40F-9497-4E32-8C25-FA303D9AC5E8</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
 				<integer>40</integer>
 				<key>hotmod</key>
 				<integer>1179648</integer>
@@ -863,41 +918,6 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>console.log('test');</string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8555319D-9A8A-47D5-B31B-068CD2218793</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-  -- your script her
-console.log('test');
-end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>66BA99E9-5EB6-437F-9CF0-8C9016236F57</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
 				<string>/usr/bin/osascript /usr/local/bin/skim.scpt /Users/xcv58/Dropbox/15winintncdayp.pdf</string>
 				<key>type</key>
 				<integer>0</integer>
@@ -942,17 +962,17 @@ end alfred_script</string>
 		<key>21DBC018-4630-4164-BB9B-C0F3C4B3B98D</key>
 		<dict>
 			<key>ypos</key>
-			<real>1680</real>
+			<real>1920</real>
 		</dict>
 		<key>2E75327D-8FC8-41CE-904B-861FAEA91F20</key>
 		<dict>
 			<key>ypos</key>
-			<real>1440</real>
+			<real>1560</real>
 		</dict>
 		<key>36865AD3-DED0-4664-B8B2-EA2975BD4DBC</key>
 		<dict>
 			<key>ypos</key>
-			<real>1310</real>
+			<real>1450</real>
 		</dict>
 		<key>393DB19F-6B6F-4B32-B85D-0D101B133368</key>
 		<dict>
@@ -987,12 +1007,7 @@ end alfred_script</string>
 		<key>63A21AE6-3BBF-47D8-BE0B-960CBF6D7F0E</key>
 		<dict>
 			<key>ypos</key>
-			<real>1310</real>
-		</dict>
-		<key>66BA99E9-5EB6-437F-9CF0-8C9016236F57</key>
-		<dict>
-			<key>ypos</key>
-			<real>1800</real>
+			<real>1450</real>
 		</dict>
 		<key>69586BA6-8A10-431D-88FB-1A1931C9451A</key>
 		<dict>
@@ -1009,15 +1024,20 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>670</real>
 		</dict>
-		<key>8555319D-9A8A-47D5-B31B-068CD2218793</key>
+		<key>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</key>
 		<dict>
 			<key>ypos</key>
-			<real>1680</real>
+			<real>1330</real>
 		</dict>
 		<key>8DDE6A00-6769-4A97-8EB3-F79416AA03B7</key>
 		<dict>
 			<key>ypos</key>
 			<real>1920</real>
+		</dict>
+		<key>91DFA40F-9497-4E32-8C25-FA303D9AC5E8</key>
+		<dict>
+			<key>ypos</key>
+			<real>1330</real>
 		</dict>
 		<key>A23B6816-4716-4703-8385-47E5AAEDECE7</key>
 		<dict>
@@ -1032,7 +1052,7 @@ end alfred_script</string>
 		<key>ACD4169D-19D7-4FC5-9C79-606DB3A90795</key>
 		<dict>
 			<key>ypos</key>
-			<real>1560</real>
+			<real>1670</real>
 		</dict>
 		<key>AD024926-AAC2-4017-86B0-80BC1FFFF391</key>
 		<dict>
@@ -1042,12 +1062,12 @@ end alfred_script</string>
 		<key>BF2CD9EE-2BE9-491F-B493-CD22D0509D07</key>
 		<dict>
 			<key>ypos</key>
-			<real>1560</real>
+			<real>1670</real>
 		</dict>
 		<key>C3A1E5D7-DC36-419F-8C2D-BDBBA554392C</key>
 		<dict>
 			<key>ypos</key>
-			<real>1440</real>
+			<real>1560</real>
 		</dict>
 		<key>CD288599-DF8D-4FB8-83A4-55942EADBE44</key>
 		<dict>
