@@ -188,7 +188,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>51065B56-17AE-4DC3-8966-3CDB8F840267</string>
+				<string>BB5E0541-0081-46C6-AF38-7ACCC188DF54</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -236,6 +236,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -253,6 +255,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -297,6 +301,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -341,6 +347,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -385,17 +393,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/Applications/WeChat.app</string>
-				</array>
-				<key>toggle</key>
-				<true/>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/WeChat.app /Applications/Messages.app</string>
+				<key>type</key>
+				<integer>5</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>51065B56-17AE-4DC3-8966-3CDB8F840267</string>
+			<string>BB5E0541-0081-46C6-AF38-7ACCC188DF54</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -500,6 +510,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -632,6 +644,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -915,6 +929,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -999,11 +1015,6 @@
 			<key>ypos</key>
 			<real>1150</real>
 		</dict>
-		<key>51065B56-17AE-4DC3-8966-3CDB8F840267</key>
-		<dict>
-			<key>ypos</key>
-			<real>450</real>
-		</dict>
 		<key>63A21AE6-3BBF-47D8-BE0B-960CBF6D7F0E</key>
 		<dict>
 			<key>ypos</key>
@@ -1058,6 +1069,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>1000</real>
+		</dict>
+		<key>BB5E0541-0081-46C6-AF38-7ACCC188DF54</key>
+		<dict>
+			<key>ypos</key>
+			<real>450</real>
 		</dict>
 		<key>BF2CD9EE-2BE9-491F-B493-CD22D0509D07</key>
 		<dict>
