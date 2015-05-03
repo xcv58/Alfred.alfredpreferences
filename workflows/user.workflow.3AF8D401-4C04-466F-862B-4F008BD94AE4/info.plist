@@ -515,7 +515,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.applescript /Applications/IntelliJ\ IDEA\ 14.app/ /Applications/Android\ Studio.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Android\ Studio.app /Applications/IntelliJ\ IDEA\ 14.app/</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
