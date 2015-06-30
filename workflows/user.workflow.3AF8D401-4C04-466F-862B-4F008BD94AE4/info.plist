@@ -155,7 +155,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>ACD4169D-19D7-4FC5-9C79-606DB3A90795</string>
+				<string>E836DA69-6874-4EAF-B504-B23B956A967A</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -902,6 +902,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Calendar.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>E836DA69-6874-4EAF-B504-B23B956A967A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -1109,6 +1126,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>340</real>
+		</dict>
+		<key>E836DA69-6874-4EAF-B504-B23B956A967A</key>
+		<dict>
+			<key>ypos</key>
+			<real>1780</real>
 		</dict>
 		<key>EC4F5B1F-6D41-41E2-A210-177BDA415804</key>
 		<dict>
