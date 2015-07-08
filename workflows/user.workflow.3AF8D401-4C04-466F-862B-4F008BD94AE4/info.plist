@@ -41,6 +41,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>3CC57996-18D0-481D-87E9-ED26B6AB7C05</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8D5C6CA0-81AB-45D9-8CC1-029C711587E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>3E30B60B-1D0D-4691-AD3A-2E151EA17A38</key>
 		<array>
 			<dict>
@@ -962,6 +973,50 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Quip.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>8D5C6CA0-81AB-45D9-8CC1-029C711587E9</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>15</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>R</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>3CC57996-18D0-481D-87E9-ED26B6AB7C05</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -1012,6 +1067,11 @@
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
+		<key>3CC57996-18D0-481D-87E9-ED26B6AB7C05</key>
+		<dict>
+			<key>ypos</key>
+			<real>2040</real>
+		</dict>
 		<key>3E30B60B-1D0D-4691-AD3A-2E151EA17A38</key>
 		<dict>
 			<key>ypos</key>
@@ -1051,6 +1111,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>670</real>
+		</dict>
+		<key>8D5C6CA0-81AB-45D9-8CC1-029C711587E9</key>
+		<dict>
+			<key>ypos</key>
+			<real>2040</real>
 		</dict>
 		<key>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</key>
 		<dict>
