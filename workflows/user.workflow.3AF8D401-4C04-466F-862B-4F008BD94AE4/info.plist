@@ -243,7 +243,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.applescript /Applications/Emacs.app /Applications/MacVim.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Emacs.app /Applications/MacVim.app /Applications/Atom.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
