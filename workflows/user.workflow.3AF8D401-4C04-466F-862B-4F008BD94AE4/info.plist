@@ -20,7 +20,16 @@
 			</dict>
 		</array>
 		<key>21DBC018-4630-4164-BB9B-C0F3C4B3B98D</key>
-		<array/>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>04CE0C6F-1C17-4FE9-BF95-D1BD085C3F75</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>2E75327D-8FC8-41CE-904B-861FAEA91F20</key>
 		<array>
 			<dict>
@@ -986,16 +995,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Launchpad.app</string>
+				</array>
+				<key>toggle</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>04CE0C6F-1C17-4FE9-BF95-D1BD085C3F75</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
 				<key>hotkey</key>
-				<integer>18</integer>
+				<integer>118</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>8388608</integer>
 				<key>hotstring</key>
-				<string>1</string>
+				<string>F4</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -1023,7 +1049,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.launchfiles</string>
 			<key>uid</key>
-			<string>04CE0C6F-1C17-4FE9-BF95-D1BD085C3F75</string>
+			<string>9D2C95FC-2DF4-4C03-A31A-EB4C0A8332D3</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1035,7 +1061,7 @@
 		<key>04CE0C6F-1C17-4FE9-BF95-D1BD085C3F75</key>
 		<dict>
 			<key>ypos</key>
-			<real>2290</real>
+			<real>2160</real>
 		</dict>
 		<key>0863D7AE-2999-498C-AFAF-BB78B6379DDE</key>
 		<dict>
@@ -1146,6 +1172,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>1330</real>
+		</dict>
+		<key>9D2C95FC-2DF4-4C03-A31A-EB4C0A8332D3</key>
+		<dict>
+			<key>ypos</key>
+			<real>2410</real>
 		</dict>
 		<key>A23B6816-4716-4703-8385-47E5AAEDECE7</key>
 		<dict>
