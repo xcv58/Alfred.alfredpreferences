@@ -526,7 +526,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.applescript /Applications/Android\ Studio.app /Applications/IntelliJ\ IDEA.app/ /Applications/PyCharm.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/Android\ Studio\ 2.app /Applications/IntelliJ\ IDEA.app/ /Applications/PyCharm.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
