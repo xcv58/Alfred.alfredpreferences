@@ -271,7 +271,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>osascript /usr/local/bin/toggle.applescript /Applications/Airmail\ 2.app /Applications/Mail.app</string>
+				<string>osascript /usr/local/bin/toggle.applescript /Applications/CloudMagic\ Email.app /Applications/Mail.app</string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
