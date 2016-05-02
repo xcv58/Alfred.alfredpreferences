@@ -1,0 +1,62 @@
+{
+  "AlfredTheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 14,
+        "colorSelected" : "#ECECECFF",
+        "font" : "Helvetica",
+        "color" : "#E6E0EC00"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#757575CE",
+        "font" : "Helvetica",
+        "color" : "#A4A4A49B"
+      },
+      "backgroundSelected" : "#5B5961FF",
+      "text" : {
+        "size" : 24,
+        "colorSelected" : "#F2F2F2FF",
+        "font" : "Helvetica Neue",
+        "color" : "#333239D3"
+      },
+      "iconPaddingHorizontal" : 5,
+      "paddingVertical" : 6,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 2,
+      "background" : "#FDFCFF00",
+      "spacing" : 10,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#000000FF",
+        "font" : "Helvetica Neue",
+        "color" : "#000000FF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "cogColor" : "#7F7F7F7F",
+      "color" : "#E5E4E6E5",
+      "paddingHorizontal" : 10,
+      "width" : 620,
+      "borderPadding" : 10,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 0,
+      "paddingVertical" : 10
+    },
+    "credit" : "xcv58",
+    "separator" : {
+      "color" : "#FFFFFF00",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#0000000F",
+      "thickness" : 2
+    },
+    "name" : "Yosemite Graphite (v2)"
+  }
+}

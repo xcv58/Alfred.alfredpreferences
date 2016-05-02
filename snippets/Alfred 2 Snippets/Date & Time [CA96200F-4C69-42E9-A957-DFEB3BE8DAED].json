@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{date:short} {time:long} ",
+    "dontautoexpand" : true,
+    "uid" : "CA96200F-4C69-42E9-A957-DFEB3BE8DAED",
+    "name" : "Date & Time",
+    "keyword" : "dat"
+  }
+}

@@ -8,8 +8,6 @@
 	<true/>
 	<key>hidemenu</key>
 	<true/>
-	<key>hidesubtext</key>
-	<integer>2</integer>
 	<key>saveposition</key>
 	<true/>
 	<key>showOnMouseScreen</key>

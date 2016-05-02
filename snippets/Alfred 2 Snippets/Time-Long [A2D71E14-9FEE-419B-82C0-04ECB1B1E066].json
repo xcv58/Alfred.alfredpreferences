@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "{time:long}",
+    "dontautoexpand" : true,
+    "uid" : "A2D71E14-9FEE-419B-82C0-04ECB1B1E066",
+    "name" : "Time-Long",
+    "keyword" : "longtime"
+  }
+}

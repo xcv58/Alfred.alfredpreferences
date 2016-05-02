@@ -1,0 +1,62 @@
+{
+  "AlfredTheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 24,
+        "colorSelected" : "#FFFFFFC4",
+        "font" : "Menlo",
+        "color" : "#00000065"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Menlo",
+        "color" : "#480069FF"
+      },
+      "backgroundSelected" : "#480069E4",
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Menlo",
+        "color" : "#000000E5"
+      },
+      "iconPaddingHorizontal" : 4,
+      "paddingVertical" : 8,
+      "iconSize" : 48
+    },
+    "search" : {
+      "paddingVertical" : 5,
+      "background" : "#FFFFFF00",
+      "spacing" : 4,
+      "text" : {
+        "size" : 64,
+        "colorSelected" : "#000000FF",
+        "font" : "Menlo",
+        "color" : "#000000FF"
+      },
+      "backgroundSelected" : "#A3CCFEFF"
+    },
+    "window" : {
+      "cogColor" : "#7F7F7F7F",
+      "color" : "#FFFFFFC5",
+      "paddingHorizontal" : 0,
+      "width" : 768,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 15,
+      "roundness" : 3,
+      "paddingVertical" : 0
+    },
+    "credit" : "xcv58",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#480069FF",
+      "thickness" : 2
+    },
+    "name" : "Alfred Native Fork"
+  }
+}
