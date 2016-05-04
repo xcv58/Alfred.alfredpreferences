@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>21DBC018-4630-4164-BB9B-C0F3C4B3B98D</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>2E75327D-8FC8-41CE-904B-861FAEA91F20</key>
@@ -39,6 +43,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>3CC57996-18D0-481D-87E9-ED26B6AB7C05</key>
@@ -50,6 +56,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>3E30B60B-1D0D-4691-AD3A-2E151EA17A38</key>
@@ -61,6 +69,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>3EA8E337-86BA-46FF-BA3C-A6252C706400</key>
@@ -72,6 +82,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>47A2375E-8040-4CAF-89FD-B27755416AF2</key>
@@ -83,6 +95,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>63A21AE6-3BBF-47D8-BE0B-960CBF6D7F0E</key>
@@ -94,6 +108,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>69586BA6-8A10-431D-88FB-1A1931C9451A</key>
@@ -105,6 +121,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>72D9F51E-AE7A-491F-9179-A6D6CE0DC7EA</key>
@@ -116,6 +134,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>7774D49A-BE8A-4682-AC80-6D767A4BDAC5</key>
@@ -127,17 +147,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>91DFA40F-9497-4E32-8C25-FA303D9AC5E8</string>
+				<string>116475C7-885D-413A-A089-2A4B1018A0F3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>A23B6816-4716-4703-8385-47E5AAEDECE7</key>
@@ -149,6 +173,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>AAB0C54D-F241-4D21-88FF-083450033380</key>
@@ -160,6 +186,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>BF2CD9EE-2BE9-491F-B493-CD22D0509D07</key>
@@ -171,6 +199,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>D2A998FA-BAC5-4EDC-9207-D5D80DE15026</key>
@@ -182,6 +212,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>DE4CDC6D-106F-4108-8340-0B397D3E34AE</key>
@@ -193,6 +225,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>EC4F5B1F-6D41-41E2-A210-177BDA415804</key>
@@ -204,6 +238,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -253,6 +289,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/Atom\ Beta.app /Applications/Emacs.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -261,7 +301,7 @@
 			<key>uid</key>
 			<string>1B8F028A-BE3F-4F94-9911-1571746202F9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -272,6 +312,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/CloudMagic\ Email.app /Applications/Mail.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -280,7 +324,7 @@
 			<key>uid</key>
 			<string>393DB19F-6B6F-4B32-B85D-0D101B133368</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -318,6 +362,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/Google\ Chrome.app /Applications/Safari.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -326,7 +374,7 @@
 			<key>uid</key>
 			<string>18FCE39B-4CA3-485B-87D4-FE70AE03512F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -364,6 +412,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/Skim.app /Applications/Preview.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -372,7 +424,7 @@
 			<key>uid</key>
 			<string>E790A7AB-9262-4714-A0BD-12D6DC805F16</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -410,6 +462,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/WeChat.app /Applications/Messages.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -418,7 +474,7 @@
 			<key>uid</key>
 			<string>BB5E0541-0081-46C6-AF38-7ACCC188DF54</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -527,6 +583,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/Android\ Studio\ 2.app /Applications/IntelliJ\ IDEA.app/ /Applications/PyCharm.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -535,7 +595,7 @@
 			<key>uid</key>
 			<string>0BA521F8-3082-410F-B6D8-AC87F3062E01</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -573,6 +633,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggleFinder.scpt</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -581,7 +645,7 @@
 			<key>uid</key>
 			<string>41744C83-2BF9-49B4-A985-7E45EB965C9C</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -663,6 +727,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>osascript /usr/local/bin/toggle.applescript /Applications/Reeder.app /Applications/Newsflow.app</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>5</integer>
 			</dict>
@@ -671,7 +739,7 @@
 			<key>uid</key>
 			<string>AD024926-AAC2-4017-86B0-80BC1FFFF391</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -703,8 +771,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>https://inbox.google.com</string>
 				<key>utf8</key>
@@ -724,6 +794,8 @@
 				<integer>2</integer>
 				<key>keyword</key>
 				<string>gm</string>
+				<key>subtext</key>
+				<string></string>
 				<key>text</key>
 				<string>Inbox by Gmail</string>
 				<key>withspace</key>
@@ -733,6 +805,30 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>D2A998FA-BAC5-4EDC-9207-D5D80DE15026</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+	set appName to "Electron"
+	tell application "System Events"
+		if frontmost of process appName then
+			set visible of process appName to false
+		else
+			set frontmost of process appName to true
+		end if
+	end tell
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>116475C7-885D-413A-A089-2A4B1018A0F3</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -766,8 +862,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>https://mail.google.com/mail/u/0/?ibxr=0</string>
 				<key>utf8</key>
@@ -810,8 +908,10 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
-				<false/>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
 				<key>url</key>
 				<string>https://trello.com</string>
 				<key>utf8</key>
@@ -938,6 +1038,10 @@
 				<integer>127</integer>
 				<key>script</key>
 				<string>/usr/bin/osascript /usr/local/bin/skim.scpt /Users/xcv58/Dropbox/15winintncdayp.pdf</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -946,7 +1050,7 @@
 			<key>uid</key>
 			<string>8DDE6A00-6769-4A97-8EB3-F79416AA03B7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1060,191 +1164,274 @@
 	<dict>
 		<key>04CE0C6F-1C17-4FE9-BF95-D1BD085C3F75</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2160</real>
 		</dict>
 		<key>0863D7AE-2999-498C-AFAF-BB78B6379DDE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>890</real>
 		</dict>
 		<key>0BA521F8-3082-410F-B6D8-AC87F3062E01</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>670</real>
 		</dict>
+		<key>116475C7-885D-413A-A089-2A4B1018A0F3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>640</integer>
+			<key>ypos</key>
+			<integer>1260</integer>
+		</dict>
 		<key>18FCE39B-4CA3-485B-87D4-FE70AE03512F</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>1B8F028A-BE3F-4F94-9911-1571746202F9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>21DBC018-4630-4164-BB9B-C0F3C4B3B98D</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>2160</real>
 		</dict>
 		<key>2E75327D-8FC8-41CE-904B-861FAEA91F20</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1560</real>
 		</dict>
 		<key>36865AD3-DED0-4664-B8B2-EA2975BD4DBC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1450</real>
 		</dict>
 		<key>393DB19F-6B6F-4B32-B85D-0D101B133368</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 		<key>3CC57996-18D0-481D-87E9-ED26B6AB7C05</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>2040</real>
 		</dict>
 		<key>3E30B60B-1D0D-4691-AD3A-2E151EA17A38</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>230</real>
 		</dict>
 		<key>3EA8E337-86BA-46FF-BA3C-A6252C706400</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>780</real>
 		</dict>
 		<key>41744C83-2BF9-49B4-A985-7E45EB965C9C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>780</real>
 		</dict>
 		<key>47A2375E-8040-4CAF-89FD-B27755416AF2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>120</real>
 		</dict>
 		<key>481133D5-6E10-467A-ADAF-26A8841A2A51</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1150</real>
 		</dict>
 		<key>63A21AE6-3BBF-47D8-BE0B-960CBF6D7F0E</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1450</real>
 		</dict>
 		<key>69586BA6-8A10-431D-88FB-1A1931C9451A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
 		<key>72D9F51E-AE7A-491F-9179-A6D6CE0DC7EA</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>560</real>
 		</dict>
 		<key>7774D49A-BE8A-4682-AC80-6D767A4BDAC5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>670</real>
 		</dict>
 		<key>8D5C6CA0-81AB-45D9-8CC1-029C711587E9</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2040</real>
 		</dict>
 		<key>8D7CD23D-7D5D-4602-BA07-271BC8164ED0</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1330</real>
 		</dict>
 		<key>8DDE6A00-6769-4A97-8EB3-F79416AA03B7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1920</real>
 		</dict>
 		<key>91DFA40F-9497-4E32-8C25-FA303D9AC5E8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1330</real>
 		</dict>
 		<key>9D2C95FC-2DF4-4C03-A31A-EB4C0A8332D3</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>2410</real>
 		</dict>
 		<key>A23B6816-4716-4703-8385-47E5AAEDECE7</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1110</real>
 		</dict>
 		<key>AAB0C54D-F241-4D21-88FF-083450033380</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1000</real>
 		</dict>
 		<key>ACD4169D-19D7-4FC5-9C79-606DB3A90795</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1670</real>
 		</dict>
 		<key>AD024926-AAC2-4017-86B0-80BC1FFFF391</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1000</real>
 		</dict>
 		<key>BB5E0541-0081-46C6-AF38-7ACCC188DF54</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>450</real>
 		</dict>
 		<key>BF2CD9EE-2BE9-491F-B493-CD22D0509D07</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>1670</real>
 		</dict>
 		<key>C3A1E5D7-DC36-419F-8C2D-BDBBA554392C</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1560</real>
 		</dict>
 		<key>CD288599-DF8D-4FB8-83A4-55942EADBE44</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>560</real>
 		</dict>
 		<key>CD3E0258-3E0D-4691-9F5A-8F711A38FABC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>890</real>
 		</dict>
 		<key>D2A998FA-BAC5-4EDC-9207-D5D80DE15026</key>
 		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
 			<real>1220</real>
 		</dict>
 		<key>DE4CDC6D-106F-4108-8340-0B397D3E34AE</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
 		<key>E790A7AB-9262-4714-A0BD-12D6DC805F16</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>340</real>
 		</dict>
 		<key>E836DA69-6874-4EAF-B504-B23B956A967A</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>1780</real>
 		</dict>
 		<key>EC4F5B1F-6D41-41E2-A210-177BDA415804</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>450</real>
 		</dict>
