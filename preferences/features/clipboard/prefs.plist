@@ -19,6 +19,10 @@
 	<integer>4</integer>
 	<key>persistFor</key>
 	<integer>3</integer>
+	<key>persistForFiles</key>
+	<integer>3</integer>
+	<key>persistForImages</key>
+	<integer>2</integer>
 	<key>snippetsAtTop</key>
 	<false/>
 </dict>
