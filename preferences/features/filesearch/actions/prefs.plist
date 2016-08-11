@@ -16,8 +16,6 @@
 		<true/>
 		<key>alfred.action.move</key>
 		<true/>
-		<key>alfred.action.open</key>
-		<true/>
 		<key>alfred.action.recent</key>
 		<true/>
 	</dict>
