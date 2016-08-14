@@ -17,6 +17,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
@@ -28,6 +30,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
@@ -39,6 +43,8 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
@@ -55,6 +61,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
 				<key>searcher</key>
 				<integer>1635215215</integer>
 			</dict>
@@ -63,7 +71,7 @@
 			<key>uid</key>
 			<string>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -90,7 +98,7 @@
 			<key>uid</key>
 			<string>11EEBC31-462C-4C7F-8A61-B2221528088B</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -124,7 +132,7 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -151,11 +159,13 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>C5520834-787D-4A75-9F0B-EC5ECA45DA34</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -167,6 +177,10 @@ end tell
 display dialog q
 EOF
 </string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -175,7 +189,7 @@ EOF
 			<key>uid</key>
 			<string>283FDC74-E317-4D38-B20E-F69EE7926AF8</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -200,7 +214,7 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -231,7 +245,7 @@ end alfred_script</string>
 			<key>uid</key>
 			<string>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -240,36 +254,50 @@ end alfred_script</string>
 	<dict>
 		<key>11EEBC31-462C-4C7F-8A61-B2221528088B</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>110</real>
 		</dict>
 		<key>283FDC74-E317-4D38-B20E-F69EE7926AF8</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>330</real>
 		</dict>
 		<key>6F6F472A-AFA0-4F55-9925-C11FD2514D47</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>200</real>
 		</dict>
 		<key>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>480</real>
 		</dict>
 		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>480</real>
 		</dict>
 		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
 		<dict>
+			<key>xpos</key>
+			<integer>100</integer>
 			<key>ypos</key>
 			<real>260</real>
 		</dict>
 		<key>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</key>
 		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
 			<key>ypos</key>
 			<real>60</real>
 		</dict>
