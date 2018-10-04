@@ -3,33 +3,49 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.xcv58.time</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>4E30B73F-8908-48FB-A7A0-31140D3F1305</key>
+		<key>495D6810-993A-43D0-8CF9-732D8F715AA4</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5196734F-7E71-410E-B0BA-104098F9FB4F</string>
+				<string>0EAD8ECF-2462-4B51-82BA-0AF918C4FCA2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>xcv58</string>
 	<key>description</key>
-	<string></string>
+	<string>test</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Shortcuts</string>
+	<string>Screen Time</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>largetypetext</key>
+				<string>{date}
+{time}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>0EAD8ECF-2462-4B51-82BA-0AF918C4FCA2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -37,60 +53,51 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
-				<integer>37</integer>
+				<integer>17</integer>
 				<key>hotmod</key>
 				<integer>1310720</integer>
 				<key>hotstring</key>
-				<string>L</string>
+				<string>T</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>relatedAppsMode</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>4E30B73F-8908-48FB-A7A0-31140D3F1305</string>
+			<string>495D6810-993A-43D0-8CF9-732D8F715AA4</string>
 			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>pmset displaysleepnow</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>5196734F-7E71-410E-B0BA-104098F9FB4F</string>
-			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>test</string>
 	<key>uidata</key>
 	<dict>
-		<key>4E30B73F-8908-48FB-A7A0-31140D3F1305</key>
+		<key>0EAD8ECF-2462-4B51-82BA-0AF918C4FCA2</key>
 		<dict>
+			<key>xpos</key>
+			<integer>380</integer>
 			<key>ypos</key>
-			<real>40</real>
+			<integer>90</integer>
 		</dict>
-		<key>5196734F-7E71-410E-B0BA-104098F9FB4F</key>
+		<key>495D6810-993A-43D0-8CF9-732D8F715AA4</key>
 		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
 			<key>ypos</key>
-			<real>40</real>
+			<integer>220</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string>xcv58.com</string>
+	<string></string>
 </dict>
 </plist>
