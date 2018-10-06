@@ -27,7 +27,7 @@
 	<key>description</key>
 	<string>test</string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>Screen Time</string>
 	<key>objects</key>
