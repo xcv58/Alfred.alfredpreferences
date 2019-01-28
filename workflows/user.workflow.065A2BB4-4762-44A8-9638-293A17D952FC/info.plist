@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.xcv58.authorization</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>382CA7DD-5E26-41C0-9A22-68ACF99D805E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ACE7D676-3CE0-4898-A4CA-44F62EB7100D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>xcv58</string>
+	<key>description</key>
+	<string>Auto generate JSON format for Authorization Bearer</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Authorization Bearer</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>authorization</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Authorization Bearer</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>382CA7DD-5E26-41C0-9A22-68ACF99D805E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{
+  "Authorization": "Bearer {clipboard}"
+}</string>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>ACE7D676-3CE0-4898-A4CA-44F62EB7100D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>test</string>
+	<key>uidata</key>
+	<dict>
+		<key>382CA7DD-5E26-41C0-9A22-68ACF99D805E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>200</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>ACE7D676-3CE0-4898-A4CA-44F62EB7100D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
