@@ -80,6 +80,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
@@ -117,8 +121,8 @@
   else
     set address to address &amp; query
   end if
---    display dialog address
-  tell application "Chrome"
+--  display dialog address
+  tell application "Google Chrome Dev"
     activate
     open location address
   end tell
@@ -141,6 +145,10 @@ end alfred_script</string>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>1</integer>
 				<key>hotmod</key>
@@ -223,6 +231,10 @@ end alfred_script</string>
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
 				<key>hotkey</key>
 				<integer>0</integer>
 				<key>hotmod</key>
