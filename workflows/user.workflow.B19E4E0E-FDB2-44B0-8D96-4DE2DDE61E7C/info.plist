@@ -8,19 +8,8 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>11EEBC31-462C-4C7F-8A61-B2221528088B</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<key>5F4CC781-4175-422C-A8E1-BC8E012C03B2</key>
+		<array/>
 		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
 		<array>
 			<dict>
@@ -34,11 +23,60 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B351B5EB-489D-4B5D-AAD7-BE5EDB900626</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5F4CC781-4175-422C-A8E1-BC8E012C03B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>CBEC9A17-7495-44E1-A416-8A15819DDC8D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>5F4CC781-4175-422C-A8E1-BC8E012C03B2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>C385CEB8-2072-4215-905A-C273D1387D03</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E1A8DE8-46DC-41DF-A0C3-CA2F0F0CACB6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D76514AA-C458-44D3-9EE4-46B5E1C305CE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>83FBAFDB-B3E5-49F0-AC57-BDE51799B705</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
+				<string>B351B5EB-489D-4B5D-AAD7-BE5EDB900626</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -63,78 +101,75 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</string>
+			<string>5F4CC781-4175-422C-A8E1-BC8E012C03B2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>2</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{query}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&amp;//=]*)$</string>
+						<key>outputlabel</key>
+						<string>URL</string>
+						<key>uid</key>
+						<string>CBEC9A17-7495-44E1-A416-8A15819DDC8D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^http:\/\/go\/.*</string>
+						<key>outputlabel</key>
+						<string>HTTP GO link</string>
+						<key>uid</key>
+						<string>C385CEB8-2072-4215-905A-C273D1387D03</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>^go/.*</string>
+						<key>outputlabel</key>
+						<string>go/link</string>
+						<key>uid</key>
+						<string>D76514AA-C458-44D3-9EE4-46B5E1C305CE</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Search query</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>11EEBC31-462C-4C7F-8A61-B2221528088B</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-  -- your script here
-  set query to q
-  set address to "https://www.google.com/search?&amp;q="
---  if startswith(query, ade)
-  if {query starts with "http" or query contains "www." or query contains ".com" or query contains ".edu" or query contains ".org" or query contains ".gov" or query contains "goo.gl" or query contains "bit.ly"} then
---    if {query ends with "/"} then
---      display dialog "FIND"
---    end if
-    set address to query
-  else
-    set address to address &amp; query
-  end if
---  display dialog address
-  tell application "Google Chrome Dev"
-    activate
-    open location address
-  end tell
---     display dialog q
-end alfred_script</string>
-				<key>cachescript</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>6F6F472A-AFA0-4F55-9925-C11FD2514D47</string>
+			<string>B351B5EB-489D-4B5D-AAD7-BE5EDB900626</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -172,30 +207,69 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>osascript &lt;&lt;EOF
-tell application "Safari"
-   activate
-   open location "123.com"
-end tell
-display dialog q
-EOF
-</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
+				<key>browser</key>
 				<string></string>
-				<key>type</key>
-				<integer>0</integer>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://{query}</string>
+				<key>utf8</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>283FDC74-E317-4D38-B20E-F69EE7926AF8</string>
+			<string>0E1A8DE8-46DC-41DF-A0C3-CA2F0F0CACB6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>83FBAFDB-B3E5-49F0-AC57-BDE51799B705</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.apple.mail</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -224,73 +298,38 @@ end alfred_script</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>A</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedApps</key>
-				<array>
-					<string>com.apple.mail</string>
-				</array>
-				<key>relatedAppsMode</key>
-				<integer>2</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Search selected text or go the the website</string>
 	<key>uidata</key>
 	<dict>
-		<key>11EEBC31-462C-4C7F-8A61-B2221528088B</key>
+		<key>0E1A8DE8-46DC-41DF-A0C3-CA2F0F0CACB6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>575</integer>
 			<key>ypos</key>
-			<real>110</real>
+			<integer>200</integer>
 		</dict>
-		<key>283FDC74-E317-4D38-B20E-F69EE7926AF8</key>
+		<key>5F4CC781-4175-422C-A8E1-BC8E012C03B2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>580</integer>
 			<key>ypos</key>
-			<real>330</real>
+			<integer>40</integer>
 		</dict>
-		<key>6F6F472A-AFA0-4F55-9925-C11FD2514D47</key>
+		<key>83FBAFDB-B3E5-49F0-AC57-BDE51799B705</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>575</integer>
 			<key>ypos</key>
-			<real>200</real>
+			<integer>360</integer>
 		</dict>
 		<key>8E69B3C1-7C8F-4B68-8BEA-4272F8B5D6DC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>330</integer>
 			<key>ypos</key>
-			<real>480</real>
+			<integer>515</integer>
 		</dict>
 		<key>B0C2F8BE-9366-4BBB-B223-BA3B5EEAEDF5</key>
 		<dict>
@@ -299,21 +338,23 @@ end alfred_script</string>
 			<key>ypos</key>
 			<real>480</real>
 		</dict>
+		<key>B351B5EB-489D-4B5D-AAD7-BE5EDB900626</key>
+		<dict>
+			<key>xpos</key>
+			<integer>325</integer>
+			<key>ypos</key>
+			<integer>145</integer>
+		</dict>
 		<key>C5520834-787D-4A75-9F0B-EC5ECA45DA34</key>
 		<dict>
 			<key>xpos</key>
-			<integer>100</integer>
+			<integer>95</integer>
 			<key>ypos</key>
-			<real>260</real>
-		</dict>
-		<key>CE1661A7-2D0C-403D-B6F6-2F2AB8680E10</key>
-		<dict>
-			<key>xpos</key>
-			<integer>500</integer>
-			<key>ypos</key>
-			<real>60</real>
+			<integer>160</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string></string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
