@@ -8,5 +8,7 @@
 	<string>xcv58</string>
 	<key>defaultReadme</key>
 	<string>test</string>
+	<key>showAlignmentGuides</key>
+	<true/>
 </dict>
 </plist>
