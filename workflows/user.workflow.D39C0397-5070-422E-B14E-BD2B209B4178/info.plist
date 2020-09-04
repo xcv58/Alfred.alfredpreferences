@@ -41,6 +41,32 @@
 				<true/>
 			</dict>
 		</array>
+		<key>975CCD9A-CA4A-4DCE-8420-1A83CC621EEC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A8162665-BF50-4BAD-81EB-F4A6C14E18D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A8162665-BF50-4BAD-81EB-F4A6C14E18D4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F98C1DB4-FDB3-4A50-9976-5F18DF414F96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B1B28060-86CC-4132-9517-33D0A7831843</key>
 		<array/>
 		<key>B509F959-1445-4F53-B6DE-22EB6D179091</key>
@@ -56,6 +82,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>F98C1DB4-FDB3-4A50-9976-5F18DF414F96</key>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>xcv58</string>
@@ -112,35 +140,14 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>hotkey</key>
-				<integer>37</integer>
-				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>L</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>2</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>B509F959-1445-4F53-B6DE-22EB6D179091</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
@@ -177,6 +184,37 @@
 			<key>uid</key>
 			<string>94F9973B-9408-4DC2-BC0B-88A357F35954</string>
 			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>37</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>L</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>B509F959-1445-4F53-B6DE-22EB6D179091</string>
+			<key>version</key>
 			<integer>2</integer>
 		</dict>
 		<dict>
@@ -201,6 +239,75 @@
 			<string>B1B28060-86CC-4132-9517-33D0A7831843</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Please just input the number KITE-`132`</string>
+				<key>text</key>
+				<string>KITE jira ticket</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A8162665-BF50-4BAD-81EB-F4A6C14E18D4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>38</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>J</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>975CCD9A-CA4A-4DCE-8420-1A83CC621EEC</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://go/j/kite-{query}/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>F98C1DB4-FDB3-4A50-9976-5F18DF414F96</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -228,6 +335,20 @@
 			<key>ypos</key>
 			<integer>220</integer>
 		</dict>
+		<key>975CCD9A-CA4A-4DCE-8420-1A83CC621EEC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
+		<key>A8162665-BF50-4BAD-81EB-F4A6C14E18D4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>255</integer>
+			<key>ypos</key>
+			<integer>590</integer>
+		</dict>
 		<key>B1B28060-86CC-4132-9517-33D0A7831843</key>
 		<dict>
 			<key>xpos</key>
@@ -241,6 +362,13 @@
 			<integer>40</integer>
 			<key>ypos</key>
 			<integer>220</integer>
+		</dict>
+		<key>F98C1DB4-FDB3-4A50-9976-5F18DF414F96</key>
+		<dict>
+			<key>xpos</key>
+			<integer>545</integer>
+			<key>ypos</key>
+			<integer>590</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
