@@ -273,7 +273,7 @@
 				<key>hotkey</key>
 				<integer>38</integer>
 				<key>hotmod</key>
-				<integer>1048576</integer>
+				<integer>262144</integer>
 				<key>hotstring</key>
 				<string>J</string>
 				<key>leftcursor</key>
