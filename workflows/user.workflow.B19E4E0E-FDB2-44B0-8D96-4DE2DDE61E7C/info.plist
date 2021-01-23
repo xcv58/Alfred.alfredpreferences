@@ -202,6 +202,8 @@
 			<dict>
 				<key>argument</key>
 				<string>{query}</string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -372,6 +374,8 @@
 			<dict>
 				<key>argument</key>
 				<string></string>
+				<key>passthroughargument</key>
+				<false/>
 				<key>variables</key>
 				<dict>
 					<key>input</key>
@@ -393,7 +397,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://www.google.com/search?q={var:input}</string>
+				<string>https://duckduckgo.com/?q={var:input}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
