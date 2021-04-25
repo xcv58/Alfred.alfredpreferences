@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>biz.twitter.alfred.birdhouse2</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9FE5098B-7BDB-4CD9-AED0-A92FC28C4B8B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9FE5098B-7BDB-4CD9-AED0-A92FC28C4B8B</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Arthur Dexter</string>
+	<key>description</key>
+	<string>Search Birdhouse for a name</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Birdhouse</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>birdhouse</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import base64
+import hashlib
+import hmac
+import json
+import sys
+import time
+import urllib
+import urllib2
+
+def alfred_item_from_birdhouse_user(birdhouse_user):
+    def has_field(key):
+        return key in birdhouse_user and birdhouse_user[key] is not None
+    
+    subtitle_parts = []
+
+    if has_field('team'):
+        subtitle_parts.append(birdhouse_user['team'])
+
+    if has_field('title'):
+        subtitle_parts.append(birdhouse_user['title'])
+
+    handle_contact = filter(
+        lambda contact: contact['contact_type'] == 'twitter',
+        birdhouse_user['contacts'])
+    if len(handle_contact) &gt; 0:
+        subtitle_parts.append('@{}'.format(handle_contact[0]['value']))
+
+    if has_field('email'):
+        subtitle_parts.append(birdhouse_user['email'])
+
+    subtitle = ' | '.join(subtitle_parts)
+
+    return {
+        "uid": birdhouse_user['account'],
+        "type": "file",
+        "title": birdhouse_user['name'],
+        "subtitle": subtitle,
+        "arg": birdhouse_user['account'],
+        "autocomplete": birdhouse_user['account'],
+    }
+
+_, query = sys.argv
+
+auth_token = 'bf312433b5cdeb34bbfbd7e4c1a9dc5f'
+auth_secret = 'e914e64be5f37520a9fefcaa2d298658'
+auth_timestamp = int(time.time())
+auth_hash = hmac.new(auth_secret, '{}:{}'.format(auth_token, auth_timestamp), hashlib.sha256)
+auth_signature = base64.b64encode(auth_hash.digest())
+
+url = 'https://birdhouse-old.twitter.biz/api/v1/users/'
+url_params = {
+    'auth_token': auth_token,
+    'auth_signature': auth_signature,
+    'auth_timestamp': auth_timestamp,
+    'name': query,
+    'limit': 10
+}
+url = '{}?{}'.format(url, urllib.urlencode(url_params))
+
+request = urllib2.Request(url)
+response = urllib2.urlopen(request)
+response_json = json.loads(response.read())
+users_json = response_json['users'] or []
+
+sys.stdout.write(json.dumps({
+    'items': map(alfred_item_from_birdhouse_user, users_json)
+}))
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://birdhouse.twitter.biz/en/global/profile.html?ldap={query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>9FE5098B-7BDB-4CD9-AED0-A92FC28C4B8B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+		<key>9FE5098B-7BDB-4CD9-AED0-A92FC28C4B8B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
